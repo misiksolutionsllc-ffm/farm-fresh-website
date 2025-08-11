@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Contact Us - FarmFreshApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/styles_index.css">
+    <link rel="stylesheet" href="css/diagram.css">
+    <link rel="stylesheet" href="css/progress_bar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <div class="navbar-brand">
+                <a href="about.html">
+                    <img src="images/logo.png" alt="FarmFreshApp Logo" class="logo" loading="lazy">
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="how-it-works.html" class="nav-link">How It Works</a></li>
+                    <li class="nav-item"><a href="demo.html" class="nav-link">Demo</a></li>
+                    <li class="nav-item"><a href="farmers.html" class="nav-link">Our Farmers</a></li>
+                    <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+                    <li class="nav-item"><a href="investors.html" class="nav-link active">Investors</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="background-wrapper">
+
+        <!-- Hero Section -->
+        <section class="hero parallax-section">
+           <div class="container">
+               <div class="parallax-content">
+               <div class="row">
+                   <div class="col">                   
+                    <div class="hero-content">
+                       <div class="glass-card">
+                       <h1>Investors</h1>
+                       <p>
+                        Join us in revolutionizing the farm-to-consumer marketplace and making America healthy again.
+                       </p>
+                       <div class="hero-buttons">
+                        <a href="investors.html#" class="btn btn-outline">Details</a>
+                        <a href="investors.html#" class="btn btn-outline">Contact</a>
+                      </div>
+                       </div>
+                   </div>
+                   </div>
+               </div>
+               </div>
+           </div>
+       </section>
+
+       <section class="how-it-works-section parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+                <h2 class="section-title animate-on-scroll">Investment Highlights</h2>
+                <div class="steps">
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <h3>$27.8B Market</h3>
+                            <p>
+                                The farm-to-consumer market is projected to reach $27.8 billion by 2025, with a CAGR of 17.2%.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <h3>40% Cost Reduction</h3>
+                            <p>
+                                Our pilot tests demonstrated a 40% reduction in operational costs for participating businesses.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <h3>Three-Sided Marketplace</h3>
+                            <p>
+                                Our unique model connects customers, farmers, and delivery drivers in a seamless ecosystem.
+                            </p>
+                        </div>
+                    </div>                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission-section parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+                <div class="row">
+                    <div class="col">
+                        <div class="animate-on-scroll">
+                            <div class="glass-card">
+                                <h2>Market Opportunity</h2>
+                                <h3>Growing Demand for Truly Natural Food</h3>
+                                <p> 
+                                    Consumer demand for authentic, chemical-free food has surged in recent years,
+                                    driven by increasing awareness of health impacts and distrust of conventional "organic" labeling.
+                                </p>
+                                <ul class="mb-3">
+                                    <li>92% of consumers say sustainability is important when choosing brands</li>
+                                    <li>78% of Americans are willing to pay more for truly natural food</li>
+                                    <li>35% increase in direct-to-consumer farm sales from 2019 to 2020</li>
+                                    <li>64% of consumers distrust conventional "organic" labeling</li>                                    
+                                </ul>
+                                <p>
+                                    FarmFreshApp is positioned at the intersection of these trends, providing a transparent marketplace
+                                    that connects consumers directly with farmers using traditional, chemical-free growing methods.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission-section parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+                <div class="row">
+                    <div class="col">
+                        <div class="animate-on-scroll">                            
+                            <div class="glass-card" style="margin-top: var(--space-xs);">
+                                <h2>Farm to consumer market growth</h2>
+                                <canvas id="marketChart"></canvas>                                
+                            </div>                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission-section parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+                <div class="row">
+                    <div class="col">
+                        <div class="animate-on-scroll">                            
+                            <div class="glass-card" style="margin-top: var(--space-xs);">
+                                <h2>Business model</h2>                       
+                                  <div class="platform-diagram">
+                                    <div class="platform-box">FarmFresh</div>
+                                    <div class="connections">
+                                        <div class="line"></div>
+                                        <div class="line"></div>
+                                        <div class="line"></div>
+                                    </div>
+                                    <div class="circle-row">
+                                        <div class="circle-block">
+                                        <div class="circle">Customers</div>
+                                        <p>Access to truly natural food</p>
+                                        </div>
+                                        <div class="circle-block">
+                                        <div class="circle">Farmers</div>
+                                        <p>Direct access & fair prices</p>
+                                        </div>
+                                        <div class="circle-block">
+                                        <div class="circle">Delivery</div>
+                                        <p>Flexible income & impact</p>
+                                        </div>
+                                    </div>
+                                    </div>
+
+                                    <!-- <h4>For Customers</h4>
+                                    <p>Access to truly natural food products directly from local farmers with transparent information about growing practices.</p>
+                                    <h4>For Farmers</h4>
+                                    <p>Direct market access, fair pricing, and recognition as "American heroes" growing real natural food for their communities.</p>
+                                    <h4>For Delivery Drivers</h4>
+                                    <p>Flexible income opportunities while connecting farmers with customers and supporting the mission to make America healthy again.</p>                             -->
+                            </div>                    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <!-- <section class="mission-section parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+                <div class="row">
+                    <div class="col">
+                        <div class="animate-on-scroll">
+                            <div class="glass-card">
+                                <h2>Revenue Streams</h2> 
+                                <div class="doughnut-chart">
+                                    <canvas id="myDoughnutChart"></canvas>
+                                </div>
+                                <canvas id="myDoughnutChart" width="300" height="300"></canvas>
+                                <p> 
+                                    FarmFreshApp generates revenue through multiple channels, creating a sustainable business 
+                                    model with diverse income sources:
+                                </p>
+                                <ul class="mb-3">
+                                    <li>Commission on Sales: 10-15% commission on all transactions processed through the platform</li>
+                                    <li>Subscription Fees: Monthly subscription options for farmers and premium customers</li>
+                                    <li>Premium Listings: Enhanced visibility and promotional opportunities for farmers</li>
+                                    <li>Delivery Fees: Service fees for delivery, with a portion going to drivers</li>                                    
+                                </ul>
+                                <p>
+                                    This multi-faceted approach ensures stable revenue while maintaining affordable pricing for all stakeholders.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="how-it-works-section parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+                <h2 class="section-title animate-on-scroll">Revenue Streams</h2>
+                <div class="glass-card investment-descr">
+                    This multi-faceted approach ensures stable revenue while maintaining affordable pricing for all stakeholders. <br>
+                    FarmFreshApp generates revenue through multiple channels, creating a sustainable business model with diverse income sources:
+                </div>
+                <div class="steps">
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <!-- <div class="timeline-date"><h4>40%</h4></div> -->
+                            <h4>Commission on Sales</h4>  
+                            <p>Commission on all transactions processed through the platform</p>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 15%"></div>
+                                <span class="progress-text">15%</span>
+                            </div>                                                                                  
+                        </div>                        
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <!-- <div class="timeline-date"><h4>25%</h4></div> -->
+                            <h4>Subscription Fees</h4> 
+                            <p>Monthly subscription options for farmers and premium customers</p> 
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 30%"></div>
+                                <span class="progress-text">30%</span>
+                            </div>                           
+                        </div>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <!-- <div class="timeline-date"><h4>20%</h4></div> -->
+                            <h4>Premium Listings</h4> 
+                            <p>Enhanced visibility and promotional opportunities for farmers</p>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 15%"></div>
+                                <span class="progress-text">15%</span>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <!-- <div class="timeline-date"><h4>10%</h4></div> -->
+                            <h4>Delivery Fees</h4> 
+                            <p>Service fees for delivery, with a portion going to drivers</p>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 10%"></div>
+                                <span class="progress-text">10%</span>
+                            </div>                            
+                        </div>
+                    </div>                             
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+                <h2 class="section-title animate-on-scroll">Our Team</h2>                
+                <div class="feature-grid">
+                    <div class="feature-card animate-on-scroll">
+                        <img src="images/Boris_Misik_2.jpg" alt="Boris_Misik" class="team-img"> 
+                        <h3>Boris Misik</h3>
+                        <p>Founder</p>
+                        <p>
+                            Boris founded FarmFreshApp after discovering issues with commercially labeled 'organic' products. His vision is to connect consumers 
+                            directly with farmers growing truly natural food using traditional methods, making America healthy again.
+                        </p>
+                    </div> 
+                    <div class="feature-card animate-on-scroll">                        
+                        <img src="images/Ted_Butcher_2.jpg" alt="Ted_Batch" class="team-img">                        
+                        <h3>Ted Butch</h3>
+                        <p>Founder and CEO of Montage Management International, specializing in M&A advisory for Fortune 500 companies. 
+                            Over 25 years of experience in executive consulting, corporate restructuring, capital raising, strategic planning,
+                             and operational improvement. Proven track record in leading M&A deals, distressed asset resolution, and team development. 
+                             Expert in product and marketing strategy, with hands-on leadership in due diligence, joint ventures, and stakeholder communications. 
+                             Developed training programs, led technical teams, and created growth initiatives that boosted productivity and revenue. 
+                            Skilled at knowledge transfer across all organizational levels.</p>
+                        <!-- <p>
+                           
+                        </p> -->
+                    </div>
+                    <div class="feature-card animate-on-scroll">                        
+                        <img src="images/Viktor_Suhov_2.jpg" alt="Viktor_Suhov" class="team-img">                        
+                        <h3>Viktor Sukhov</h3>
+                        <p>System Architect</p>
+                        <!-- <p>
+                            Viktor designed and implemented the system architecture of FarmFreshApp. He structured the platform to ensure 
+                            seamless interaction between customers, farmers, and delivery drivers—integrating databases, user roles, and data flows to support 
+                            real-time operations.
+                        </p> -->
+                        <p>
+                            Viktor designed and implemented the FarmFreshApp system architecture to build a scalable and transparent 
+                            farm-to-table solution that empowers the local produce marketplace.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission-section parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+                <div class="row">
+                    <div class="col">
+                        <div class="animate-on-scroll">
+                            <div class="glass-card">
+                                <h2>Our Mission</h2>                                
+                                <p> 
+                                    At FarmFreshApp, we're committed to revolutionizing how Americans access truly natural food. Our mission is to:
+                                </p>
+                                <ul class="mb-3">
+                                    <li>Connect consumers directly with farmers using traditional growing methods</li>
+                                    <li>Eliminate middlemen and provide transparency in food sourcing</li>
+                                    <li>Support local farmers as "American heroes" growing real natural food</li>
+                                    <li>Build stronger communities through local food economies</li>  
+                                    <li>Make America healthy again by providing access to chemical-free food</li>                                  
+                                </ul>
+                                <p>
+                                    We're seeking partners who share our vision and want to be part of this transformative journey in American food systems.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+                <h2 class="section-title animate-on-scroll">Investment Opportunity</h2>
+                <div class="glass-card investment-descr">FarmFreshApp is raising $5 million in seed funding to accelerate growth and expand our impact:</div>
+                <div class="feature-grid">
+                    <div class="feature-card animate-on-scroll">
+                        <h3>Raise Amount</h3>
+                        <p>$5,000,000</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll">
+                        <h3>Minimum Investment</h3>
+                        <p>$250,000</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll">
+                        <h3>Stage</h3>
+                        <p>Seed</p>
+                    </div>
+                    <div class="feature-card animate-on-scroll">
+                        <h3>Valuation</h3>
+                        <p>$20,000,000 pre-money</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works-section parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+                <h2 class="section-title animate-on-scroll">Use of Funds</h2>
+                <div class="steps">
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <!-- <div class="timeline-date"><h4>40%</h4></div> -->
+                            <h4>R&D and Technology</h4>  
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 40%"></div>
+                                <span class="progress-text">40%</span>
+                            </div>                                                                                  
+                        </div>
+                        
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <!-- <div class="timeline-date"><h4>25%</h4></div> -->
+                            <h4>Hiring AI Researchers</h4>  
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 25%"></div>
+                                <span class="progress-text">25%</span>
+                            </div>                           
+                        </div>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <!-- <div class="timeline-date"><h4>20%</h4></div> -->
+                            <h4>Marketing & User Acquisition</h4> 
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 20%"></div>
+                                <span class="progress-text">20%</span>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <!-- <div class="timeline-date"><h4>10%</h4></div> -->
+                            <h4>Geographic Expansion</h4> 
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 10%"></div>
+                                <span class="progress-text">10%</span>
+                            </div>                            
+                        </div>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <!-- <div class="timeline-date"><h4>5%</h4></div> -->
+                            <h4>Operations & Working Capital</h4>
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 5%"></div>
+                                <span class="progress-text">5%</span>
+                            </div>                             
+                        </div>
+                    </div>               
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works-section parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+                <h2 class="section-title animate-on-scroll">Growth Strategy</h2>
+                <!-- <p class="text-center mb-5 animate-on-scroll">Our three-sided marketplace connects customers, farmers, and delivery drivers through a seamless mobile application.</p> -->
+
+                <div class="steps">
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <div class="timeline-date">Q3 2025</div>
+                            <h3>Florida Expansion</h3>
+                            <p>
+                                Expand from Marion County to cover major metropolitan areas across Florida
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <div class="timeline-date">Q1 2026</div>
+                            <h3>Southeast Regional Launch</h3>
+                            <p>
+                                Expand to Georgia, Alabama, and South Carolina markets                           
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <div class="timeline-date">Q3 2026</div>
+                            <h3>AI-Powered Supply Chain Optimization</h3>
+                            <p>
+                                Launch proprietary AI system for route optimization and inventory management                                
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <div class="timeline-date">Q1 2027</div>
+                            <h3>National Expansion</h3>
+                            <p>
+                                National Expansion                            
+                            </p>
+                        </div>
+                    </div>
+                    <div class="step animate-on-scroll">
+                        <div class="step-content">
+                            <div class="timeline-date">Q4 2027</div>
+                            <h3>Series A Funding</h3>
+                            <p>
+                                Raise Series A to accelerate nationwide expansion and technology development                                
+                            </p>
+                        </div>
+                    </div>                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission-section parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+                <div class="row">
+                    <div class="col">
+                        <div class="animate-on-scroll">
+                            <div class="glass-card">
+                                <h2>Projected Returns</h2>                                
+                                <p> 
+                                    Based on current traction and market growth, we project:
+                                </p>
+                                <ul class="mb-3">
+                                    <li>5-7x return on investment within 5 years</li>
+                                    <li>Potential exit opportunities through acquisition by major food retailers or IPO</li>
+                                    <li>Significant social impact through transformation of local food systems</li>                                                                      
+                                </ul>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section class="cta-section parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+                <div class="glass-card animate-on-scroll">
+                    <h2 class="cta-title">Ready to Join Our Mission?</h2>
+                    <p class="cta-text">Contact our investor relations team to learn more about this opportunity and request our detailed pitch deck</p>
+                    <p class="cta-text">Boris@misik.pro</p>
+                    <p class="cta-text">(754) 465-4655</p>                        
+                </div>
+            </div>
+        </div>
+    </section>            
+ </div>
+     
+    <footer class="footer">
+        <div class="container footer-grid">
+          <div class="footer-brand footer-content-center">
+            <img src="images/logo.png" alt="FarmFreshApp Logo" class="footer-logo" loading="lazy">
+            <!-- <p>Connecting consumers with farmers growing real food using traditional methods</p> -->
+            <div class="social-links">
+                <a href="investors.html#" class="social-link"><img src="images/facebook.svg" alt="Facebook" loading="lazy"></a>              
+                <a href="investors.html#" class="social-link"><img src="images/instagram.svg" alt="Instagram" loading="lazy"></a>
+                <a href="investors.html#" class="social-link"><img src="images/x-twitter.svg" alt="Instagram" loading="lazy"></a>
+                <a href="investors.html#" class="social-link"><img src="images/youtube.svg" alt="Twitter" loading="lazy"></a>
+            </div>
+          </div>
+
+          <div>
+            <h4 class="footer-content-center">Links</h4>
+            <div class="footer-links-group">
+                <ul class="footer-links footer-content-center">
+                    <!-- <li><a href="#">Download App</a></li> -->
+                    <li><a href="become_customer.html">Become a Customer</a></li>
+                    <li><a href="become_merchant.html">Become a Farmer</a></li>                        
+                </ul>
+                <ul class="footer-links footer-content-center">
+                    <li><a href="become_driver.html">Become a Driver</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <!-- <li><a href="#">Terms of Service</a></li> -->
+                </ul>
+            </div>                
+        </div>
+      
+        <div class="footer-content-center">
+            <h4>Contact</h4>
+            <ul class="footer-links">
+              <li>MisikSolutions LLC, 616 NW 1st Ave, Hallandale Beach, FL 33009</li>
+              <!-- <li>(352) 555-FARM</li> -->
+              <li><a href="mailto:hello@farmfreshapp.com">info@farmfreshapp.store</a></li>
+            </ul>
+        </div>
+
+        </div>
+      
+        <div class="footer-bottom">
+          <p>&copy; 2025 FarmFreshApp. All rights reserved.</p>
+        </div>
+    </footer>
+      
+ <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+ <script src="js/index_page.js" defer></script>
+ <script>
+    const ctx = document.getElementById('marketChart').getContext('2d');
+    const chartCanvas = document.getElementById('marketChart');
+    if (window.innerWidth <= 320) {
+    chartCanvas.height = 163;
+    } 
+    chartCanvas.style.display = 'block';
+    const marketChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: ['2020', '2021', '2022', '2023', '2024', '2025'],
+        datasets: [{
+        label: 'Market Value ($B)',
+        data: [10.7, 12.5, 15.2, 18.7, 22.3, 27.8],
+        backgroundColor: 'transparent',
+        borderColor: 'white',
+        borderWidth: 2,
+        borderRadius: 10,
+        borderSkipped: false
+        }]
+    },
+    options: {
+        plugins: {
+        legend: { display: false },
+        datalabels: {
+            anchor: 'center',
+            align: 'center',
+            color: '#fff',
+            font: {
+            weight: 'bold'
+            },
+            rotation: function(context) {
+            return window.innerWidth < 576 ? -90 : 0;
+            },
+            formatter: value => `$${value}B`
+        },
+        tooltip: {
+            backgroundColor: 'rgba(0,0,0,0.7)',
+            titleColor: '#fff',
+            bodyColor: '#fff',
+            padding: 10
+        }
+        },
+        scales: {
+        x: {
+            grid: { display: false },
+            ticks: { color: '#fff', font: { weight: '600' } }
+        },
+        y: {
+            grid: { display: false },
+            ticks: { display: false }
+        }
+        }
+    },
+    plugins: [ChartDataLabels]
+    });
+ </script>
+</body>
+</html>

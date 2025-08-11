@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Interactive Demo - FarmFreshApp</title>
+    <link rel="stylesheet" href="css/styles_index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+</head>
+<body>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="container navbar-container">
+                <div class="navbar-brand">
+                    <a href="about.html">
+                        <img src="images/logo.png" alt="FarmFreshApp Logo" class="logo" loading="lazy">
+                    </a>
+                </div>
+                <div class="navbar-menu">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="how-it-works.html" class="nav-link">How It Works</a></li>
+                        <li class="nav-item"><a href="demo.html" class="nav-link active">Demo</a></li>
+                        <li class="nav-item"><a href="farmers.html" class="nav-link">Our Farmers</a></li>
+                        <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
+                        <li class="nav-item"><a href="investors.html" class="nav-link">Investors</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+
+        <div class="background-wrapper">
+
+        
+    <!-- Hero Section -->
+    <section class="hero parallax-section">
+        <div class="container">
+            <div class="parallax-content">
+            <div class="row">
+                <div class="col">
+                <div class="hero-content">
+                    <div class="glass-card">
+                    <h1>Interactive Demo</h1>
+                    <p>
+                        Experience how FarmFreshApp connects customers, farmers, and delivery drivers in our three-sided marketplace.
+                    </p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works-section parallax-section">
+        <div class="container">
+          <div class="parallax-content">
+      
+            <!-- КНОПКИ -->
+            <div class="how-tabs text-center mb-5">
+              <button class="btn how-tab active" data-target="how-customers">Customers</button>
+              <button class="btn how-tab" data-target="how-farmers">Farmers</button>
+              <button class="btn how-tab" data-target="how-drivers">Drivers</button>
+            </div>
+      
+            <!-- СОДЕРЖИМОЕ ДЛЯ CUSTOMERS -->
+            <div id="how-customers" class="how-panel demo-container">         
+                <!-- <div class="video-wrapper">
+                    <iframe
+                        src="https://www.youtube.com/embed/WfEMiscVdQ8"
+                        title="FarmFreshApp Demo Video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>     -->
+                <div class="video-wrapper">
+                    <div class="video-poster" onclick="this.style.display='none'; this.nextElementSibling.src += '&autoplay=1';">
+                      <img src="images/video-poster.jpg" alt="Video Preview" class="video-placeholder" loading="lazy"> <!-- СЮДА ДОБАВИТЬ СКРИН ВИДЕО -->
+                      <div class="play-button"></div>
+                    </div>
+                    <iframe
+                      src="https://www.youtube.com/embed/WfEMiscVdQ8?rel=0&showinfo=0"
+                      title="FarmFreshApp Demo Video"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                </div>                
+                    <div class="glass-card">
+                        <h2 class="cta-title">Ready to Experience the Real Thing?</h2>
+                        <p class="cta-text">
+                            Download the FarmFreshApp today and start your journey to
+                            healthier eating with truly natural food from local farmers.
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="demo.html#" class="btn btn-outline download-ios-btn" data-full="Download for iOS" data-short="iOS">Download for iOS</a>
+                        <a href="demo.html#" class="btn btn-outline download-android-btn" data-full="Download for Android" data-short="Android">Download for Android</a>
+                        </div>                            
+                    </div>                  
+            </div>
+      
+            <!-- СОДЕРЖИМОЕ ДЛЯ FARMERS -->
+            <div id="how-farmers" class="how-panel demo-container hidden">
+                <div class="video-wrapper">
+                    <div class="video-poster" onclick="this.style.display='none'; this.nextElementSibling.src += '&autoplay=1';">
+                        <img src="images/video-poster.jpg" alt="Video Preview" loading="lazy"> <!-- СЮДА ДОБАВИТЬ СКРИН ВИДЕО -->
+                        <div class="play-button"></div>
+                    </div>
+                    <iframe
+                        src="https://www.youtube.com/embed/_JJJsaziMeI"
+                        title="FarmFreshApp Demo Video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>                
+                    <div class="glass-card">
+                        <h2 class="cta-title">Ready to Experience the Real Thing?</h2>
+                        <p class="cta-text">
+                            Download the FarmFreshApp today and start your journey to
+                            healthier eating with truly natural food from local farmers.
+                        </p>
+                        <div class="cta-buttons">
+                            <a href="demo.html#" class="btn btn-outline download-ios-btn" data-full="Download for iOS" data-short="iOS">Download for iOS</a>
+                            <a href="demo.html#" class="btn btn-outline download-android-btn" data-full="Download for Android" data-short="Android">Download for Android</a>
+                        </div>                        
+                    </div>                   
+            </div>
+      
+            <!-- СОДЕРЖИМОЕ ДЛЯ DRIVERS -->
+            <div id="how-drivers" class="how-panel demo-container hidden">
+                <div class="video-wrapper">
+                    <div class="video-poster" onclick="this.style.display='none'; this.nextElementSibling.src += '&autoplay=1';">
+                        <img src="images/video-poster.jpg" alt="Video Preview" loading="lazy"> <!-- СЮДА ДОБАВИТЬ СКРИН ВИДЕО -->
+                        <div class="play-button"></div>
+                    </div>
+                    <iframe
+                        src="https://www.youtube.com/embed/r97R28-sGDk"
+                        title="FarmFreshApp Demo Video"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>                 
+                <div class="glass-card">
+                    <h2 class="cta-title">Ready to Experience the Real Thing?</h2>
+                    <p class="cta-text">
+                        Download the FarmFreshApp today and start your journey to
+                        healthier eating with truly natural food from local farmers.
+                    </p>
+                    <div class="cta-buttons">
+                        <a href="demo.html#" class="btn btn-outline download-ios-btn" data-full="Download for iOS" data-short="iOS">Download for iOS</a>
+                        <a href="demo.html#" class="btn btn-outline download-android-btn" data-full="Download for Android" data-short="Android">Download for Android</a>
+                    </div>                        
+                </div>                  
+            </div>
+      
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="container footer-grid">
+          <div class="footer-brand footer-content-center">
+            <img src="images/logo.png" alt="FarmFreshApp Logo" class="footer-logo" loading="lazy">
+            <!-- <p>Connecting consumers with farmers growing real food using traditional methods</p> -->
+            <div class="social-links">
+                <a href="demo.html#" class="social-link"><img src="images/facebook.svg" alt="Facebook" loading="lazy"></a>              
+                <a href="demo.html#" class="social-link"><img src="images/instagram.svg" alt="Instagram" loading="lazy"></a>
+                <a href="demo.html#" class="social-link"><img src="images/x-twitter.svg" alt="Instagram" loading="lazy"></a>
+                <a href="demo.html#" class="social-link"><img src="images/youtube.svg" alt="Twitter" loading="lazy"></a>
+            </div>
+          </div>
+
+            <div>
+                <h4 class="footer-content-center">Links</h4>
+                <div class="footer-links-group">
+                    <ul class="footer-links footer-content-center">
+                        <!-- <li><a href="#">Download App</a></li> -->
+                        <li><a href="become_customer.html">Become a Customer</a></li>
+                        <li><a href="become_merchant.html">Become a Farmer</a></li>                        
+                    </ul>
+                    <ul class="footer-links footer-content-center">
+                        <li><a href="become_driver.html">Become a Driver</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <!-- <li><a href="#">Terms of Service</a></li> -->
+                    </ul>
+                </div>                
+            </div>
+      
+            <div class="footer-content-center">
+                <h4>Contact</h4>
+                <ul class="footer-links">
+                  <li>MisikSolutions LLC, 616 NW 1st Ave, Hallandale Beach, FL 33009</li>
+                  <!-- <li>(352) 555-FARM</li> -->
+                  <li><a href="mailto:hello@farmfreshapp.com">info@farmfreshapp.store</a></li>
+                </ul>
+            </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p>&copy; 2025 FarmFreshApp. All rights reserved.</p>
+        </div>
+    </footer>
+
+     </div>
+        <script src="js/index_page.js" defer></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+            const tabs = document.querySelectorAll('.how-tab');
+            const panels = document.querySelectorAll('.how-panel');
+            
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                tabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+            
+                const targetId = tab.getAttribute('data-target');
+                panels.forEach(panel => {
+                    panel.classList.toggle('hidden', panel.id !== targetId);
+                });
+                });
+            });
+            });    
+        </script>
+    </body>
+</html>                                           
